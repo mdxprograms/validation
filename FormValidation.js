@@ -19,7 +19,6 @@ export default class FormValidation {
     this.customValidations = customValidations || null;
     this.fields = [];
     this.errors = {};
-    this.valid = false;
     this.validateName = this.validateName.bind(this);
     this.validateEmail = this.validateEmail.bind(this);
     this.validatePhone = this.validatePhone.bind(this);
